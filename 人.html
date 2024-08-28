@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=
+    , initial-scale=1.0">
+    <title>RENG</title>
+    <link rel="stylesheet" href="通用.css">
+</head>
+<body>
+    <p style="color: rgb(165, 208, 247);text-align:center;font-size: 60px; ;">登录</p>
+    <form action="#"text-align:center >
+        <div class="zhanghao" style="color: aquamarine;font-size: 24px;text-align: center;">请输入账号:
+            <input type="text" class=""  placeholder="网站账号">
+        </div>
+        <br>
+        <div class="mima" style="color: aquamarine;font-size: 24px;text-align: center;">请输入密码:
+         <input type="password"placeholder="网站密码">
+
+         </div>
+         <div style="text-align: center;">
+         <input type="radio"name="xuanzhe">通道1{电信推荐}
+         <input type="radio"name="xuanzhe">通道2{移动推荐}
+         </div>
+
+         <div style="text-align: center;"><p style="font-size: 10px;">[联通两个通道都可以]</p></div>
+
+         <div class="denglu" style="text-align: center;" onclick="sbai()">
+         <input type="submit" value="登录">
+         </div>
+         <div class="denglu" style="text-align: center;" onclick="sbait()">
+            <input type="submit" value="注册" >
+            </div>
+            <br>
+         <script>function sbai(){
+            alert("登录失败,请先注册账号");
+         }
+            </script>
+
+<script>function sbait(){
+    alert("注册失败,请先联网");
+ }
+    </script>
+    </form>
+
+
+</body>
+</html>
